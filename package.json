@@ -1,0 +1,7 @@
+{
+  "name": "graph-js-sdk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "graph4w3 Team",
+  "license": "MIT"
+}
