@@ -1,1 +1,1 @@
-# graph-js-sdk
+# giraffa-js-sdk

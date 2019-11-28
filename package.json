@@ -1,7 +1,11 @@
 {
-  "name": "graph-js-sdk",
+  "name": "giraffa-js-sdk",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "graph4w3 Team",
-  "license": "MIT"
+  "author": "Giraffa Labs",
+  "license": "MIT",
+  "dependencies": {
+    "@polkadot/api": "^0.97.0-beta.34",
+    "dotenv": "^8.2.0"
+  }
 }
