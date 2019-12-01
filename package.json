@@ -1,11 +1,11 @@
 {
-  "name": "giraffa-js-sdk",
-  "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "author": "Giraffa Labs",
   "license": "MIT",
-  "dependencies": {
-    "@polkadot/api": "^0.97.0-beta.34",
-    "dotenv": "^8.2.0"
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.16.4"
   }
 }

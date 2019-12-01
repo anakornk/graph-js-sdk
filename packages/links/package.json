@@ -1,0 +1,26 @@
+{
+  "name": "@giraffa/links",
+  "version": "0.0.0",
+  "description": "JS API to interact with Links",
+  "keywords": [],
+  "author": "Giraffa Team <hello@giraffa.io>",
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giraffalabs/giraffa-js-sdk.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/giraffalabs/giraffa-js-sdk/issues"
+  },
+  "homepage": "https://github.com/giraffalabs/giraffa-js-sdk/tree/master/packages/links#readme",
+  "dependencies": {
+    "@giraffa/common": "^0.0.0",
+    "@polkadot/api": "^0.97.1"
+  }
+}

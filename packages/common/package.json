@@ -1,0 +1,25 @@
+{
+  "name": "@giraffa/common",
+  "version": "0.0.0",
+  "description": "Common",
+  "keywords": [],
+  "author": "Giraffa Team <hello@giraffa.io>",
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giraffalabs/giraffa-js-sdk.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/giraffalabs/giraffa-js-sdk/issues"
+  },
+  "homepage": "https://github.com/giraffalabs/giraffa-js-sdk/tree/master/packages/common#readme",
+  "dependencies": {
+    "@polkadot/api": "^0.97.1"
+  }
+}

@@ -1,1 +1,0 @@
-# giraffa-js-sdk examples
