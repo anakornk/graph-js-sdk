@@ -13,9 +13,13 @@
     "eslint-plugin-prettier": "^3.1.1",
     "lerna": "^3.16.4",
     "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
     "typescript": "^3.7.2"
   },
   "scripts": {
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "bootstrap": "lerna bootstrap",
+    "lint": "yarn build && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "build": "tsc -b",
+    "clean": "rimraf packages/**/lib && rimraf packages/**/tsconfig.tsbuildinfo"
   }
 }
