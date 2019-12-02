@@ -1,4 +1,4 @@
-# Giraffa Javascript SDK
+# Giraffa JavaScript SDK
 
 A javascript SDK to interact with a Giraffa node based on [Substrate](https://github.com/paritytech/substrate)
 
